@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background: #222;*/
+  background-image: url(p.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /*background-image: url('background.jpg');*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: system-ui;
+}
+
+header {
+  position: /*absolute*/ fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #ffff;
+  user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+
+
+.navigation a:hover::after {
+
+    transform: scaleX(1);
+}
+
+header a {
+  position: relative;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500px;
+  margin-left: 40px;
+}
+
+.tab {
+  background: #fff;
+  padding: 10px;
+  border: #fff solid;
+  border-radius: 20px;
+}
+
+.navigation .btnLogin-popup {
+  width: 70px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #ffff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #ffff;
+  font-weight: 500;
+  margin-left: 80px;
+  margin-right: 40px;
+  transition: 0.5s;
+}
+
+.navigation .btnLogin-popup:hover {
+  background: #fff;
+  color: #162938;
+}
+
+.crud {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+  color: #000000;
+}
+
+.inputs {
+  margin-top: 20px;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  max-width: 1024px;
+  height: 30px;
+  outline: none;
+  border: none;
+  /*background: #111;*/
+  /*background:  white;*/
+  /*background: rgb(239, 239, 239);*/
+  background: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  margin: 4px 0;
+  border-radius: 4px;
+  padding: 4px;
+  /*color: #fff;*/
+}
+
+input::placeholder {
+  /* Change to your desired color */
+  font-style: italic; /* Optional styling */
+  font-size: 15px; /* Optional size */
+
+  color: #162938;
+}
+
+input:focus {
+  background: #ffffff;
+  /*background: #000;*/
+  transform: scale(1.1);
+}
+
+#submit {
+  background: #000000;
+  color: #fff;
+}
+
+.prices input {
+  width: 20%;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+#total {
+  background: #ee1808;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+#total::before {
+  content: "Total: ";
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+button:hover {
+  background: #ffffff;
+  letter-spacing: 2px;
+}
+
+.btnSearch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnSearch button {
+  width: 45%;
+}
+
+.searchBlock {
+  margin-top: 40px;
+}
+
+#deleteAll button {
+  margin: 20px 0;
+  color: #fff;
+  background: #000000;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+table th {
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 5px;
+  /*border: 0.5px #000000 solid;*/
+}
+
+tr button {
+  width: 100%;
+}
+
+.dashboard {
+  margin: 40px;
+  background: #162938;
+  /*background: #111;*/
+  /*background: #222;*/
+}
+
+.crud .logo {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 80px;
+  line-height: 5px;
+}
+
+.n {
+    font-size: 50px;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
