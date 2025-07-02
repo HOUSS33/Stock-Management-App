@@ -86,17 +86,17 @@ All data is saved in the **browser's localStorage**, so you won't lose your prod
 
 #### 🏠 Main Interface
 <p align="center">
-  <img src="screenshots/main-interface.png" alt="Main Interface" />
+  <img src="screenshots/DATA.png" alt="Main Interface" />
 </p>
 
 #### ➕ Add Products
 <p align="center">
-  <img src="screenshots/add-products.png" alt="Add Products" />
+  <img src="screenshots/dashboard.png" alt="Add Products" />
 </p>
 
 #### 🔍 Search Functionality
 <p align="center">
-  <img src="screenshots/search.png" alt="Search Feature" />
+  <img src="screenshots/STATISTICS.png" alt="Search Feature" />
 </p>
 
 #### 📊 Statistics Chart
