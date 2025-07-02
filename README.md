@@ -94,15 +94,12 @@ All data is saved in the **browser's localStorage**, so you won't lose your prod
   <img src="screenshots/dashboard.png" alt="Add Products" />
 </p>
 
-#### 🔍 Search Functionality
+#### 📊 Statistics Chart
 <p align="center">
   <img src="screenshots/STATISTICS.png" alt="Search Feature" />
 </p>
 
-#### 📊 Statistics Chart
-<p align="center">
-  <img src="screenshots/statistics-chart.png" alt="Statistics Chart" />
-</p>
+
 
 ---
 
